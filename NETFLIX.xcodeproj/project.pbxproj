@@ -19,6 +19,7 @@
 		74BB0D1F2BC65E0300BC2AA3 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BB0D1E2BC65E0300BC2AA3 /* UpcomingViewController.swift */; };
 		74BB0D212BC65E3300BC2AA3 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BB0D202BC65E3300BC2AA3 /* SearchViewController.swift */; };
 		74BB0D232BC65E7B00BC2AA3 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BB0D222BC65E7B00BC2AA3 /* DownloadsViewController.swift */; };
+		74BB0D2A2BC671AA00BC2AA3 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BB0D292BC671AA00BC2AA3 /* CollectionViewTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		74BB0D1E2BC65E0300BC2AA3 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
 		74BB0D202BC65E3300BC2AA3 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		74BB0D222BC65E7B00BC2AA3 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		74BB0D292BC671AA00BC2AA3 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 		74BB0D242BC66AB000BC2AA3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				74BB0D292BC671AA00BC2AA3 /* CollectionViewTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 			files = (
 				74BB0D212BC65E3300BC2AA3 /* SearchViewController.swift in Sources */,
 				74BB0CF02BC65AC300BC2AA3 /* MainTabBarViewController.swift in Sources */,
+				74BB0D2A2BC671AA00BC2AA3 /* CollectionViewTableViewCell.swift in Sources */,
 				74BB0D232BC65E7B00BC2AA3 /* DownloadsViewController.swift in Sources */,
 				74BB0CEC2BC65AC300BC2AA3 /* AppDelegate.swift in Sources */,
 				74BB0CEE2BC65AC300BC2AA3 /* SceneDelegate.swift in Sources */,
