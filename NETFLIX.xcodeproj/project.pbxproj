@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		74BB0CEC2BC65AC300BC2AA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BB0CEB2BC65AC300BC2AA3 /* AppDelegate.swift */; };
 		74BB0CEE2BC65AC300BC2AA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BB0CED2BC65AC300BC2AA3 /* SceneDelegate.swift */; };
-		74BB0CF02BC65AC300BC2AA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BB0CEF2BC65AC300BC2AA3 /* ViewController.swift */; };
-		74BB0CF32BC65AC300BC2AA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74BB0CF12BC65AC300BC2AA3 /* Main.storyboard */; };
+		74BB0CF02BC65AC300BC2AA3 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BB0CEF2BC65AC300BC2AA3 /* MainTabBarViewController.swift */; };
 		74BB0CF52BC65AC500BC2AA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74BB0CF42BC65AC500BC2AA3 /* Assets.xcassets */; };
 		74BB0CF82BC65AC500BC2AA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74BB0CF62BC65AC500BC2AA3 /* LaunchScreen.storyboard */; };
 		74BB0D032BC65AC500BC2AA3 /* NETFLIXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BB0D022BC65AC500BC2AA3 /* NETFLIXTests.swift */; };
 		74BB0D0D2BC65AC500BC2AA3 /* NETFLIXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BB0D0C2BC65AC500BC2AA3 /* NETFLIXUITests.swift */; };
 		74BB0D0F2BC65AC500BC2AA3 /* NETFLIXUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BB0D0E2BC65AC500BC2AA3 /* NETFLIXUITestsLaunchTests.swift */; };
+		74BB0D1D2BC65DCC00BC2AA3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BB0D1C2BC65DCC00BC2AA3 /* HomeViewController.swift */; };
+		74BB0D1F2BC65E0300BC2AA3 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BB0D1E2BC65E0300BC2AA3 /* UpcomingViewController.swift */; };
+		74BB0D212BC65E3300BC2AA3 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BB0D202BC65E3300BC2AA3 /* SearchViewController.swift */; };
+		74BB0D232BC65E7B00BC2AA3 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BB0D222BC65E7B00BC2AA3 /* DownloadsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,7 @@
 		74BB0CE82BC65AC300BC2AA3 /* NETFLIX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NETFLIX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74BB0CEB2BC65AC300BC2AA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74BB0CED2BC65AC300BC2AA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		74BB0CEF2BC65AC300BC2AA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		74BB0CF22BC65AC300BC2AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74BB0CEF2BC65AC300BC2AA3 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		74BB0CF42BC65AC500BC2AA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74BB0CF72BC65AC500BC2AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74BB0CF92BC65AC500BC2AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		74BB0D082BC65AC500BC2AA3 /* NETFLIXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NETFLIXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74BB0D0C2BC65AC500BC2AA3 /* NETFLIXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NETFLIXUITests.swift; sourceTree = "<group>"; };
 		74BB0D0E2BC65AC500BC2AA3 /* NETFLIXUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NETFLIXUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		74BB0D1C2BC65DCC00BC2AA3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		74BB0D1E2BC65E0300BC2AA3 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		74BB0D202BC65E3300BC2AA3 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		74BB0D222BC65E7B00BC2AA3 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +105,15 @@
 		74BB0CEA2BC65AC300BC2AA3 /* NETFLIX */ = {
 			isa = PBXGroup;
 			children = (
+				74BB0D282BC66B1800BC2AA3 /* Managers */,
+				74BB0D272BC66B0500BC2AA3 /* Resources */,
+				74BB0D252BC66AC200BC2AA3 /* Models */,
+				74BB0D242BC66AB000BC2AA3 /* Views */,
+				74BB0D262BC66ACD00BC2AA3 /* ViewModels */,
+				74BB0D1B2BC65DA800BC2AA3 /* Controllers */,
 				74BB0CEB2BC65AC300BC2AA3 /* AppDelegate.swift */,
 				74BB0CED2BC65AC300BC2AA3 /* SceneDelegate.swift */,
-				74BB0CEF2BC65AC300BC2AA3 /* ViewController.swift */,
-				74BB0CF12BC65AC300BC2AA3 /* Main.storyboard */,
+				74BB0CEF2BC65AC300BC2AA3 /* MainTabBarViewController.swift */,
 				74BB0CF42BC65AC500BC2AA3 /* Assets.xcassets */,
 				74BB0CF62BC65AC500BC2AA3 /* LaunchScreen.storyboard */,
 				74BB0CF92BC65AC500BC2AA3 /* Info.plist */,
@@ -125,6 +136,52 @@
 				74BB0D0E2BC65AC500BC2AA3 /* NETFLIXUITestsLaunchTests.swift */,
 			);
 			path = NETFLIXUITests;
+			sourceTree = "<group>";
+		};
+		74BB0D1B2BC65DA800BC2AA3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				74BB0D1C2BC65DCC00BC2AA3 /* HomeViewController.swift */,
+				74BB0D1E2BC65E0300BC2AA3 /* UpcomingViewController.swift */,
+				74BB0D202BC65E3300BC2AA3 /* SearchViewController.swift */,
+				74BB0D222BC65E7B00BC2AA3 /* DownloadsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		74BB0D242BC66AB000BC2AA3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		74BB0D252BC66AC200BC2AA3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		74BB0D262BC66ACD00BC2AA3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		74BB0D272BC66B0500BC2AA3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		74BB0D282BC66B1800BC2AA3 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +290,6 @@
 			files = (
 				74BB0CF82BC65AC500BC2AA3 /* LaunchScreen.storyboard in Resources */,
 				74BB0CF52BC65AC500BC2AA3 /* Assets.xcassets in Resources */,
-				74BB0CF32BC65AC300BC2AA3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +314,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74BB0CF02BC65AC300BC2AA3 /* ViewController.swift in Sources */,
+				74BB0D212BC65E3300BC2AA3 /* SearchViewController.swift in Sources */,
+				74BB0CF02BC65AC300BC2AA3 /* MainTabBarViewController.swift in Sources */,
+				74BB0D232BC65E7B00BC2AA3 /* DownloadsViewController.swift in Sources */,
 				74BB0CEC2BC65AC300BC2AA3 /* AppDelegate.swift in Sources */,
 				74BB0CEE2BC65AC300BC2AA3 /* SceneDelegate.swift in Sources */,
+				74BB0D1F2BC65E0300BC2AA3 /* UpcomingViewController.swift in Sources */,
+				74BB0D1D2BC65DCC00BC2AA3 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +357,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		74BB0CF12BC65AC300BC2AA3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				74BB0CF22BC65AC300BC2AA3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		74BB0CF62BC65AC500BC2AA3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -446,7 +498,6 @@
 				INFOPLIST_FILE = NETFLIX/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -473,7 +524,6 @@
 				INFOPLIST_FILE = NETFLIX/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
